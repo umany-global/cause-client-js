@@ -9,10 +9,6 @@ Cause Service Client for Javascript
 	- [Environment](#environment)
 	- [Initialize](#initialize)
 - [Usage](#usage)
-    - [SomeClassName](#someclassname)
-        - [someMethod](#somemethod)
-    - [SomeOtherClassName](#someotherclassname)
-        - [someOtherMethod](#someothermethod)
 - [Handle Errors](#handle-errors)
 
 
