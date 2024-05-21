@@ -7,7 +7,7 @@ export default class CauseService {
 
     constructor ( config ) {
 
-        config.baseUrl = config.baseUrl ?? 'https://causes.api.umany.global';
+        config.baseUrl = config.baseUrl ?? 'https://api.umany.global/causes';
 
         this.#client = new RESTClient( config );
     }
@@ -16,7 +16,7 @@ export default class CauseService {
     list ( params = {} ) {
 
         return this.#client.get({
-            path: '/causes',
+            path: '/',
             query: params,
         });
 
