@@ -1,12 +1,12 @@
 {
   "name": "@umany-global/cause-client-js",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./src/main.js",
   "repository": "git@github.com:umany-global/cause-client-js.git",
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@umany-global/rest-client-js": "^1.3.2"
+    "@umany-global/rest-client-js": "^1.3.8"
   }
 }
