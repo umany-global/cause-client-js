@@ -1,7 +1,7 @@
 {
   "name": "@umany-global/cause-client-js",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./src/main.js",
   "repository": "git@github.com:umany-global/cause-client-js.git",
   "author": "",

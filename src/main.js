@@ -1,7 +1,7 @@
 import RESTClient from '@umany-global/rest-client-js';
 
 
-export default class CauseService {
+export default class CauseClient {
 
     #client;
 

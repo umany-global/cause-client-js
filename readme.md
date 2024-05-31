@@ -53,9 +53,9 @@ Configuration
 
 ```javascript
 
-import Client from '@umany-global/cause-client-js';
+import CauseClient from '@umany-global/cause-client-js';
 
-const clientInstance = new CauseService();
+const causeClient = new CauseClient();
 
 ```
 <br>
@@ -63,13 +63,13 @@ const clientInstance = new CauseService();
 Usage
 -----------------
 
-### Client.list( params )
+### CauseClient.find( params )
 
 Receives the following parameters and returns a Promise<Object> which includes a collection of objects represeting Causes.
 
 ```javascript
 
-clientInstance.list({
+causeClient.list({
     stage: 'fundrising', // returns causes by stage ( fundrising, in-progress or completed )
     skip: 0, // a positive integer (or 0) representing the number of results to be excludad of the query
     limit: 1, // a positiv integer representing the maximum amount of results to be retrieved
@@ -243,6 +243,14 @@ Hanndle Errors
 
 ```javascript
 
-clientInstance.catch( err => { console.log(err) } );
+causeClient.find().then( causes => {
+
+  // do something
+
+}).catch( err => { 
+  
+  // handle error
+
+});
 
 ```
