@@ -13,7 +13,7 @@ export default class CauseService {
     }
 
 
-    list ( params = {} ) {
+    find ( params = {} ) {
 
         return this.#client.get({
             path: '/',
